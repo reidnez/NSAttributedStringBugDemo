@@ -14,6 +14,10 @@
 		DD8C137D19CE3A8C00A6DAE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD8C137C19CE3A8C00A6DAE8 /* Images.xcassets */; };
 		DD8C138019CE3A8C00A6DAE8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD8C137E19CE3A8C00A6DAE8 /* LaunchScreen.xib */; };
 		DD8C138C19CE3A8C00A6DAE8 /* AttrStringBugDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8C138B19CE3A8C00A6DAE8 /* AttrStringBugDemoTests.m */; };
+		DD8C139719CE3A9F00A6DAE8 /* NSMutableAttributedString+hilighting.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8C139619CE3A9F00A6DAE8 /* NSMutableAttributedString+hilighting.m */; };
+		DD8C139A19CE3C0700A6DAE8 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8C139919CE3C0700A6DAE8 /* CustomCell.m */; };
+		DD8C139D19CE3D6000A6DAE8 /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8C139C19CE3D6000A6DAE8 /* Article.m */; };
+		DD8C139F19CE3F2C00A6DAE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8C139E19CE3F2C00A6DAE8 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,13 @@
 		DD8C138519CE3A8C00A6DAE8 /* AttrStringBugDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttrStringBugDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8C138A19CE3A8C00A6DAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD8C138B19CE3A8C00A6DAE8 /* AttrStringBugDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttrStringBugDemoTests.m; sourceTree = "<group>"; };
+		DD8C139519CE3A9F00A6DAE8 /* NSMutableAttributedString+hilighting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+hilighting.h"; sourceTree = "<group>"; };
+		DD8C139619CE3A9F00A6DAE8 /* NSMutableAttributedString+hilighting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+hilighting.m"; sourceTree = "<group>"; };
+		DD8C139819CE3C0700A6DAE8 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		DD8C139919CE3C0700A6DAE8 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		DD8C139B19CE3D6000A6DAE8 /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
+		DD8C139C19CE3D6000A6DAE8 /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
+		DD8C139E19CE3F2C00A6DAE8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD8C139F19CE3F2C00A6DAE8 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +75,7 @@
 		DD8C136319CE3A8C00A6DAE8 = {
 			isa = PBXGroup;
 			children = (
+				DD8C139E19CE3F2C00A6DAE8 /* UIKit.framework */,
 				DD8C136E19CE3A8C00A6DAE8 /* AttrStringBugDemo */,
 				DD8C138819CE3A8C00A6DAE8 /* AttrStringBugDemoTests */,
 				DD8C136D19CE3A8C00A6DAE8 /* Products */,
@@ -81,10 +94,16 @@
 		DD8C136E19CE3A8C00A6DAE8 /* AttrStringBugDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DD8C139519CE3A9F00A6DAE8 /* NSMutableAttributedString+hilighting.h */,
+				DD8C139619CE3A9F00A6DAE8 /* NSMutableAttributedString+hilighting.m */,
 				DD8C137319CE3A8C00A6DAE8 /* AppDelegate.h */,
 				DD8C137419CE3A8C00A6DAE8 /* AppDelegate.m */,
 				DD8C137619CE3A8C00A6DAE8 /* ViewController.h */,
 				DD8C137719CE3A8C00A6DAE8 /* ViewController.m */,
+				DD8C139819CE3C0700A6DAE8 /* CustomCell.h */,
+				DD8C139919CE3C0700A6DAE8 /* CustomCell.m */,
+				DD8C139B19CE3D6000A6DAE8 /* Article.h */,
+				DD8C139C19CE3D6000A6DAE8 /* Article.m */,
 				DD8C137919CE3A8C00A6DAE8 /* Main.storyboard */,
 				DD8C137C19CE3A8C00A6DAE8 /* Images.xcassets */,
 				DD8C137E19CE3A8C00A6DAE8 /* LaunchScreen.xib */,
@@ -220,8 +239,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD8C137819CE3A8C00A6DAE8 /* ViewController.m in Sources */,
+				DD8C139719CE3A9F00A6DAE8 /* NSMutableAttributedString+hilighting.m in Sources */,
+				DD8C139D19CE3D6000A6DAE8 /* Article.m in Sources */,
 				DD8C137519CE3A8C00A6DAE8 /* AppDelegate.m in Sources */,
 				DD8C137219CE3A8C00A6DAE8 /* main.m in Sources */,
+				DD8C139A19CE3C0700A6DAE8 /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
