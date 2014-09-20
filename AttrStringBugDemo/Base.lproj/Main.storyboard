@@ -28,12 +28,12 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fang" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMr-7h-f7A">
                                                     <rect key="frame" x="8" y="9" width="293" height="24"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Featuring: fang, lightning, bus, thing" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cyy-RK-6oQ">
-                                                    <rect key="frame" x="8" y="64" width="573" height="41"/>
+                                                    <rect key="frame" x="8" y="63" width="573" height="41"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
@@ -41,8 +41,8 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="keywordLabel" destination="cyy-RK-6oQ" id="dwu-46-Hlw"/>
-                                            <outlet property="titleLabel" destination="wMr-7h-f7A" id="O6b-hF-14G"/>
+                                            <outlet property="myKeywordLabel" destination="cyy-RK-6oQ" id="bDG-eX-Upg"/>
+                                            <outlet property="myTitleLabel" destination="wMr-7h-f7A" id="V7q-70-Dnb"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

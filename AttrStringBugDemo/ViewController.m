@@ -27,7 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _titles = @[@"Fang", @"Should the Axe...", @"Snowflake"];
+    _titles = @[@"Fang, test, more, car, stump", @"Should the Axe...", @"Snowflake"];
     _keywords = @"fang, soldier, axe, snowflake, car";
     _articles = [NSMutableArray array];
     
@@ -43,8 +43,6 @@
         newArticle.keywords = [[NSMutableAttributedString alloc] initWithString:_keywords];
         [_articles addObject:newArticle];
     }
-    
-    
 }
 
 #pragma mark - Search Bar Delegate
@@ -55,7 +53,6 @@
         // Reset highlights first
         [article.title removeAttribute:NSBackgroundColorAttributeName range:NSMakeRange(0, article.title.length)];
         [article.keywords removeAttribute:NSBackgroundColorAttributeName range:NSMakeRange(0, article.keywords.length)];
-        
         
         [article.title hilightMatchingSubstring:searchText color:[UIColor blueColor] range:NSMakeRange(0, article.title.length)];
         [article.keywords hilightMatchingSubstring:searchText color:[UIColor blueColor] range:NSMakeRange(0, article.keywords.length)];
@@ -84,8 +81,8 @@
     
     Article *article = _articles[indexPath.row];
     
-    cell.titleLabel.attributedText = article.title;
-    cell.keywordLabel.attributedText = article.keywords;
+    cell.myTitleLabel.attributedText = article.title;
+    cell.myKeywordLabel.attributedText = article.keywords;
     
     return cell;
 }

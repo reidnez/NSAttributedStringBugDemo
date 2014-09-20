@@ -11,11 +11,11 @@
             condition = "[article.title.string isEqualToString:@&quot;Fang&quot;]"
             continueAfterRunningActions = "No"
             filePath = "AttrStringBugDemo/ViewController.m"
-            timestampString = "432947370.257113"
+            timestampString = "432948142.027629"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -27,11 +27,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AttrStringBugDemo/ViewController.m"
-            timestampString = "432947448.227807"
+            timestampString = "432948142.027629"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
