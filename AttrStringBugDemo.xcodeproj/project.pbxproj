@@ -18,6 +18,7 @@
 		DD8C139A19CE3C0700A6DAE8 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8C139919CE3C0700A6DAE8 /* CustomCell.m */; };
 		DD8C139D19CE3D6000A6DAE8 /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8C139C19CE3D6000A6DAE8 /* Article.m */; };
 		DD8C139F19CE3F2C00A6DAE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8C139E19CE3F2C00A6DAE8 /* UIKit.framework */; };
+		DD8C13A219CE4C3A00A6DAE8 /* DocViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8C13A119CE4C3A00A6DAE8 /* DocViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DD8C139B19CE3D6000A6DAE8 /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
 		DD8C139C19CE3D6000A6DAE8 /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
 		DD8C139E19CE3F2C00A6DAE8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD8C13A019CE4C3A00A6DAE8 /* DocViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocViewController.h; sourceTree = "<group>"; };
+		DD8C13A119CE4C3A00A6DAE8 /* DocViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,8 @@
 				DD8C137419CE3A8C00A6DAE8 /* AppDelegate.m */,
 				DD8C137619CE3A8C00A6DAE8 /* ViewController.h */,
 				DD8C137719CE3A8C00A6DAE8 /* ViewController.m */,
+				DD8C13A019CE4C3A00A6DAE8 /* DocViewController.h */,
+				DD8C13A119CE4C3A00A6DAE8 /* DocViewController.m */,
 				DD8C139819CE3C0700A6DAE8 /* CustomCell.h */,
 				DD8C139919CE3C0700A6DAE8 /* CustomCell.m */,
 				DD8C139B19CE3D6000A6DAE8 /* Article.h */,
@@ -241,6 +246,7 @@
 				DD8C137819CE3A8C00A6DAE8 /* ViewController.m in Sources */,
 				DD8C139719CE3A9F00A6DAE8 /* NSMutableAttributedString+hilighting.m in Sources */,
 				DD8C139D19CE3D6000A6DAE8 /* Article.m in Sources */,
+				DD8C13A219CE4C3A00A6DAE8 /* DocViewController.m in Sources */,
 				DD8C137519CE3A8C00A6DAE8 /* AppDelegate.m in Sources */,
 				DD8C137219CE3A8C00A6DAE8 /* main.m in Sources */,
 				DD8C139A19CE3C0700A6DAE8 /* CustomCell.m in Sources */,
@@ -434,6 +440,7 @@
 				DD8C139119CE3A8C00A6DAE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD8C139219CE3A8C00A6DAE8 /* Build configuration list for PBXNativeTarget "AttrStringBugDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +449,7 @@
 				DD8C139419CE3A8C00A6DAE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

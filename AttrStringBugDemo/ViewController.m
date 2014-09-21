@@ -28,11 +28,16 @@
     [super viewDidLoad];
     
     _titles = @[@"Fang, test, more, car, stump", @"Should the Axe...", @"Snowflake"];
-    _keywords = @"fang, soldier, axe, snowflake, car";
+    _keywords = @"fang, soldier, axe, snowflake, car, mama, idempotent, kissinger";
     _articles = [NSMutableArray array];
     
     [self createArticles];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+-(BOOL)prefersStatusBarHidden
+{
+    return YES;
 }
 
 -(void)createArticles

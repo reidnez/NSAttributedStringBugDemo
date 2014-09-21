@@ -11,11 +11,11 @@
             condition = "[article.title.string isEqualToString:@&quot;Fang&quot;]"
             continueAfterRunningActions = "No"
             filePath = "AttrStringBugDemo/ViewController.m"
-            timestampString = "432948142.027629"
+            timestampString = "432951072.510031"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -27,12 +27,44 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AttrStringBugDemo/ViewController.m"
-            timestampString = "432948142.027629"
+            timestampString = "432951072.510031"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AttrStringBugDemo/NSMutableAttributedString+hilighting.m"
+            timestampString = "432950089.575464"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "-hilightMatchingSubstring:color:range:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AttrStringBugDemo/NSMutableAttributedString+hilighting.m"
+            timestampString = "432950120.686051"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "-hilightMatchingSubstring:color:range:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
